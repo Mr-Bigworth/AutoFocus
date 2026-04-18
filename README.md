@@ -1,11 +1,10 @@
-# [Visual Test-time Scaling for GUI Agent Grounding](https://arxiv.org/abs/2505.00684)
+# [AutoFocus: Uncertainty-Aware Active Visual Search for GUI Grounding](https://arxiv.org/abs/)
 
-<a href="https://arxiv.org/abs/2505.00684"><img src="https://img.shields.io/badge/arXiv-2505.00684-b31b1b.svg" height=20.5></a>
+[//]: # (<a href="https://arxiv.org/abs/2505.00684"><img src="https://img.shields.io/badge/arXiv-2505.00684-b31b1b.svg" height=20.5></a>)
 
-[Tiange Luo](https://tiangeluo.github.io/), [Lajanugen Logeswaran](https://lajanugen.github.io/)&dagger;, [Justin Johnson](https://web.eecs.umich.edu/~justincj)&dagger;, [Honglak Lee](https://web.eecs.umich.edu/~honglak/)&dagger;
+[//]: # ([Tiange Luo]&#40;https://tiangeluo.github.io/&#41;, [Lajanugen Logeswaran]&#40;https://lajanugen.github.io/&#41;&dagger;, [Justin Johnson]&#40;https://web.eecs.umich.edu/~justincj&#41;&dagger;, [Honglak Lee]&#40;https://web.eecs.umich.edu/~honglak/&#41;&dagger;)
 
-We release our ScreenSpot-Pro code for both UI-TARS and Qwen2.5-VL. All hyperparameters and prompts are not carefully tuned. Due to company policy, the release of the WebVoyager-related code is no longer permitted.
-
+We release our ScreenSpot-Pro code for both UI-TARS and Qwen2.5-VL. All hyperparameters and prompts are not carefully tuned. 
 ## ScreenSpot-Pro
 
 Please first download the data from ScreenSpot-Pro [Hugging Face](https://huggingface.co/datasets/likaixin/ScreenSpot-Pro/tree/main) and put `images` and `annotations` folders under the same directory with code. Then, launch inference servers for different models (commands are listed below; the model names and ports have already been mapped inside the code). Finally, run `bash run_ss_pro_xxx.sh`.
@@ -47,4 +46,4 @@ If you find our code or paper useful, please consider citing:
 ```
 
 ### Acknowledge
-This codebase is partially based on [RegionFocus](https://github.com/tiangeluo/RegionFocus). Many thanks!# AutoFocus
+This codebase is partially based on [RegionFocus](https://github.com/tiangeluo/RegionFocus). Many thanks!
